@@ -49,7 +49,6 @@ class Config:
     SECRET_KEY = 'this-really-needs-to-be-changed'
     SERVER_PORT = 5000
 
-
 class ProductionConfig(Config):
     DEBUG = False
     SERVER_PORT = os.environ.get('PORT', 5000)
