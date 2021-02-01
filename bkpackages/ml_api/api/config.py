@@ -33,7 +33,7 @@ def get_logger(*, logger_name):
 
     logger = logging.getLogger(logger_name)
 
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
 
     logger.addHandler(get_console_handler())
     logger.addHandler(get_file_handler())
@@ -48,6 +48,7 @@ class Config:
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
     SERVER_PORT = 5000
+
 
 class ProductionConfig(Config):
     DEBUG = False

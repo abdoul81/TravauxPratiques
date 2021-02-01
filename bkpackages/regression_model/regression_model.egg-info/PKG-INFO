@@ -2,9 +2,9 @@ Metadata-Version: 2.1
 Name: regression-model
 Version: 0.1.0
 Summary: Former et deployer un modele de regression.
-Home-page: https://github.com/cegep2020/cours-A61.git
-Author: Cegep AA
-Author-email: aamami@csfoy.ca
+Home-page: https://github.com/abdoul81/TravauxPratiques
+Author: abdoul81
+Author-email: abdichakouribrahim1981@gmail.com
 License: MIT
 Description: Former et deployer un modele de regression.
 Platform: UNKNOWN
