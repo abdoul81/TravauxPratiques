@@ -1,7 +1,12 @@
 import math
+import os
+import pathlib
+from pathlib import Path
+current_directory = os.path.dirname(os.path.abspath("__file__"))
+parent_directory = Path(current_directory).parent
 
-from regression_model.predict import make_prediction
-from regression_model.processing.data_management import load_dataset
+from parent_directory.regression_model.predict import make_prediction
+from parent_directory.regression_model.processing.data_management import load_dataset
 
 
 def test_make_single_prediction():
