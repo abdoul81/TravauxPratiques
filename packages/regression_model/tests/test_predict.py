@@ -3,11 +3,11 @@ import os
 import pathlib
 from pathlib import Path
 import sys
-sys.path.append('../')
+sys.path.append('../..')
 
 
-from regression_model.regression_model.predict import make_prediction
-from regression_model.regression_model.processing.data_management import load_dataset
+from regression_model.predict import make_prediction
+from regression_model.processing.data_management import load_dataset
 
 
 def test_make_single_prediction():
