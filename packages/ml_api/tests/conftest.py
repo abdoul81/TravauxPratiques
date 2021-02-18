@@ -1,12 +1,12 @@
 import pytest
 
-from api.app import create_app
-from api.config import TestingConfig
-
-
+#from api.app import create_app
+#from api.config import TestingConfig
+import api.app as ap
+import api.config as ac
 @pytest.fixture
 def app():
-    app = create_app(config_object=TestingConfig)
+    app = ap.create_app(config_object=ac.TestingConfig)
 
     with app.app_context():
         yield app

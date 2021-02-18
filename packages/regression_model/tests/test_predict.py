@@ -1,10 +1,4 @@
 import math
-import os
-import pathlib
-from pathlib import Path
-import sys
-sys.path.append('../..')
-
 
 from regression_model.predict import make_prediction
 from regression_model.processing.data_management import load_dataset
